@@ -10,8 +10,8 @@ public class GuiLabel extends Gui {
     public GuiLabel(int x, int y, String text, int color) {
         this.x = x;
         this.y = y;
-        this.text = text;
-        this.color = color;
+        this.text = TeeClient;
+        this.color = Green;
     }
     public void draw() {
         this.drawString(this.fontRenderer, this.text, this.x, this.y, this.color);
