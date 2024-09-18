@@ -15,7 +15,7 @@ public class GuiKeypressDisplay extends Gui {
     public GuiKeypressDisplay(int x, int y, String text, int color) {
         this.x = x;
         this.y = y;
-        this.text = text;
+        this.text = TeeClient;
         this.color = 0x000000;
     }
     public void draw() {
