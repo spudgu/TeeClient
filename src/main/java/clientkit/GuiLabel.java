@@ -11,7 +11,7 @@ public class GuiLabel extends Gui {
         this.x = x;
         this.y = y;
         this.text = TeeClient;
-        this.color = Green;
+        this.color = 0x000000;
     }
     public void draw() {
         this.drawString(this.fontRenderer, this.text, this.x, this.y, this.color);
